@@ -3,3 +3,8 @@
 
 console.log(`I was born in ${cityOfBirth}`);
 const cityOfBirth = "Bolton";
+
+// The error is that the variable cityOfBirth is being used before it is declared and assigned a value. 
+// In JavaScript, variables declared with const (or let) are not hoisted in the same way as var
+// so you cannot access them before their declaration. 
+// To fix this,we need to declare and assign the value to cityOfBirth before using it in the console.log statement.
