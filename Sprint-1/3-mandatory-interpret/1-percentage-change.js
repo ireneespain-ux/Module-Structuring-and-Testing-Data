@@ -14,8 +14,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // a) How many function calls are there in this file? Write down all the lines where a function call is made
 // There are 5 function calls in this file. 
 // Line 4: carPrice.replaceAll(",", ""), and replaceAll(",", "")
-// Line 5: priceAfterOneYear.replaceAll("," "")
-// Line 8: (priceDifference / carPrice) * 100
+// Line 5: Number() and replaceAll("," ", "")
 // Line 10: console.log(`The percentage change is ${percentageChange}`)
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
 // The line has error is line 5.The error is missing one comma in the replaceAll method.
